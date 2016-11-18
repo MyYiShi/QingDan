@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_height="?android:attr/actionBarSize"
+    android:layout_width="match_parent">
+
+    <ImageView
+        android:layout_width="?android:attr/actionBarSize"
+        android:layout_height="match_parent"
+        android:background="@drawable/home_navbar_btn_search"
+        android:scaleType="fitXY"
+        android:visibility="invisible"/>
+
+    <TextView
+        android:id="@+id/title_tv"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:alpha="1.0"
+        android:gravity="center"
+        android:maxEms="8"
+        android:text="清单"
+        android:textColor="@android:color/white"
+        android:textSize="18.0sp"/>
+
+    <ImageView
+        android:layout_width="?android:attr/actionBarSize"
+        android:layout_height="match_parent"
+        android:background="@drawable/home_navbar_btn_search"
+        android:scaleType="fitXY"/>
+
+</LinearLayout>

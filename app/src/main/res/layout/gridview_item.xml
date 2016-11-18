@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        xmlns:fresco="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/gridview_image"
+        android:layout_width="240dp"
+        android:layout_height="240dp"
+        fresco:placeholderImage = "@drawable/loading_placeholder"
+        fresco:placeholderImageScaleType="centerCrop"
+        fresco:fadeDuration = "1000"/>
+
+    <TextView
+        android:id="@+id/gridview_text"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:text="我是text我是text我是text我是text"
+        android:textSize="17dp"
+        android:textColor="@android:color/white"
+        android:layout_alignBottom="@+id/gridview_image"
+        android:layout_alignLeft="@+id/gridview_image"
+        android:maxEms="2"/>
+
+</RelativeLayout>

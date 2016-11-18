@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.yisihqingdan">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:name=".utils.QingdanApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.WelcomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.MainActivity"/>
+        <activity android:name=".activity.ArticleDetailActivity"/>
+        <activity android:name=".activity.CollectionActivity"/>
+        <activity android:name=".activity.PariseMoreActivity"/>
+        <activity android:name=".activity.PraiseActivity"
+            android:windowSoftInputMode="stateHidden"/>
+        <activity android:name=".activity.ThingsDetailActivity"/>
+        <activity android:name=".activity.Category_Up_Lookmore_Activitry"/>
+        <activity android:name=".activity.TagDetailActivity"/>
+    </application>
+
+</manifest>

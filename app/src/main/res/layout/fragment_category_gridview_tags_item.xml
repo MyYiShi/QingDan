@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:id="@+id/fragment_category_gridview_tags">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/fategorymain_gride_tags_image"
+        xmlns:fresco="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:scaleType="centerCrop"
+        fresco:placeholderImage="@drawable/loading_placeholder"
+        fresco:placeholderImageScaleType="fitCenter"
+        fresco:fadeDuration="1000"/>
+
+    <TextView
+        android:id="@+id/fategorymain_gride_tags_text"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:background="#99a9aaab"/>
+
+</FrameLayout>

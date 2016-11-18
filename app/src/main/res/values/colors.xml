@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#9099a7</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="windowBackground">#ffffffff</color>
+    <color name="tabIndicatorColor">#ff000000</color>
+    <color name="tabSelectedTextColor">#ff000000</color>
+    <color name="tabTextColor">#ff848484</color>
+    <color name="praise_item">#f1eded</color>
+    <color name="light_gray">#e9e7e7</color>
+
+    <color name="category1">#ecd6ed</color>
+    <color name="category2">#c5f2be</color>
+    <color name="category3">#ecb9b9</color>
+    <color name="category4">#ecbda4</color>
+</resources>

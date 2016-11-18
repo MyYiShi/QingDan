@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:gravity="center"
+    android:id="@+id/praise_item_footer">
+
+    <TextView
+        android:id="@+id/praise_item_footer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="没有你想点评的商品？"
+        android:textSize="20dp"
+        android:textColor="@color/colorPrimary"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/praise_recycleview_item_footer_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/shape_rectangle_purple_bg"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="点评其他商品"
+            android:textColor="#ff6d439b"
+            android:textSize="20dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:paddingLeft="40dp"
+            android:paddingRight="40dp"/>
+
+    </LinearLayout>
+
+
+    <ProgressBar
+        android:id="@+id/praise_item_footer_progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"/>
+
+
+
+</LinearLayout>

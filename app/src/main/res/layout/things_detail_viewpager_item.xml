@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/things_detail_item_simpledrawee"
+        xmlns:fresco="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        fresco:placeholderImage = "@drawable/loading_placeholder"
+        fresco:placeholderImageScaleType="centerCrop"
+        fresco:fadeDuration = "1000"/>
+
+</LinearLayout>

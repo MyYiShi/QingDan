@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/light_gray"
+    android:gravity="center"
+    android:id="@+id/category_gridview_lookmore_ll">
+
+    <TextView
+        android:id="@+id/category_gridview_lookmoretext"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:text="查看更多"
+        android:padding="10dp"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"/>
+
+</LinearLayout>

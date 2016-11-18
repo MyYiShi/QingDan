@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">YisihQingdan</string>
+    <string name="score_and_review">%1$s分（%2$d人点评）</string>
+    <string name="things_detail_money">¥%1$s分</string>
+</resources>

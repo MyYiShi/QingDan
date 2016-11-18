@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorPrimary"
+        android:padding="5dp">
+
+        <EditText
+            android:id="@+id/category_search_editext"
+            android:layout_width="fill_parent"
+            android:layout_height="30.0dip"
+            android:layout_marginBottom="15.0dip"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginRight="20.0dip"
+            android:layout_marginTop="15.0dip"
+            android:background="@drawable/search_editext_categorymain"
+            android:ellipsize="end"
+            android:hint="搜索感兴趣的文章或商品"
+            android:imeOptions="actionSearch"
+            android:paddingLeft="45.0dip"
+            android:singleLine="true"
+            android:textColor="#ff434343"
+            android:textSize="14.0sp"
+            />
+
+        <ImageView
+            android:layout_width="17dp"
+            android:layout_height="17dp"
+            android:layout_alignLeft="@id/category_search_editext"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="15.0dip"
+            android:src="@drawable/search"
+            android:id="@+id/img_search" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="精选分类"
+                android:padding="5dp"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/category_gridview_up"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="3"
+            android:horizontalSpacing="15dp"
+            android:verticalSpacing="10dp">
+
+        </GridView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:text="热门标签"
+                android:padding="5dp"
+                android:textSize="15dp"/>
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/category_gridview_down"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="3"
+            android:horizontalSpacing="15dp"
+            android:verticalSpacing="10dp">
+
+        </GridView>
+
+    </LinearLayout>
+</LinearLayout>
